@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{6AF4C71D-E0A8-41F5-BA15-028FA047638F}</ProjectGuid>
+    <RootNamespace>openGL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\__Lib\GLFW\x86\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\__Lib\GLFW\x86\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)src\;$(ProjectDir)shaders\;$(ProjectDir)resources\;$(ProjectDir)includes\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\learn\02\basic_lighting_specular.cpp" />
+    <ClCompile Include="src\learn\02\colors.cpp" />
+    <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\learn\01\camera_circle.cpp" />
+    <ClCompile Include="src\learn\01\camera_class.cpp" />
+    <ClCompile Include="src\learn\01\camera_keyboard_dt.cpp" />
+    <ClCompile Include="src\learn\01\camera_mouse_zoom.cpp" />
+    <ClCompile Include="src\learn\01\coordinate_systems.cpp" />
+    <ClCompile Include="src\learn\01\coordinate_systems_depth.cpp" />
+    <ClCompile Include="src\learn\01\coordinate_systems_multiple.cpp" />
+    <ClCompile Include="src\learn\01\HelloTriangle.cpp" />
+    <ClCompile Include="src\learn\01\HelloWorld.cpp" />
+    <ClCompile Include="src\learn\01\HellowTriangleIndexed.cpp" />
+    <ClCompile Include="src\learn\01\hello_triangle_exercise1.cpp" />
+    <ClCompile Include="src\learn\01\hello_triangle_exercise2.cpp" />
+    <ClCompile Include="src\learn\01\hello_triangle_exercise3.cpp" />
+    <ClCompile Include="src\learn\01\shaders_class.cpp" />
+    <ClCompile Include="src\learn\01\shaders_interpolation.cpp" />
+    <ClCompile Include="src\learn\01\shaders_uniform.cpp" />
+    <ClCompile Include="src\learn\01\textures.cpp" />
+    <ClCompile Include="src\learn\01\textures_combined.cpp" />
+    <ClCompile Include="src\learn\01\textures_exercise2.cpp" />
+    <ClCompile Include="src\learn\01\textures_exercise3.cpp" />
+    <ClCompile Include="src\learn\01\textures_exercise4.cpp" />
+    <ClCompile Include="src\learn\01\transformations.cpp" />
+    <ClCompile Include="src\learn\01\transformations_exercise2.cpp" />
+    <ClCompile Include="src\learn\02\basic_lighting_diffuse.cpp" />
+    <ClCompile Include="src\learn\02\lighting_maps_diffuse.cpp" />
+    <ClCompile Include="src\learn\02\lighting_maps_exercise4.cpp" />
+    <ClCompile Include="src\learn\02\lighting_maps_specular.cpp" />
+    <ClCompile Include="src\learn\02\light_casters_directional.cpp" />
+    <ClCompile Include="src\learn\02\light_casters_point.cpp" />
+    <ClCompile Include="src\learn\02\light_casters_spot.cpp" />
+    <ClCompile Include="src\learn\02\light_casters_spot_soft.cpp" />
+    <ClCompile Include="src\learn\02\materials.cpp" />
+    <ClCompile Include="src\learn\02\materials_exercise1.cpp" />
+    <ClCompile Include="src\learn\02\multiple_lights.cpp" />
+    <ClCompile Include="src\learn\03\model_loading.cpp" />
+    <ClCompile Include="src\learn\04\asteroids_instanced.cpp" />
+    <ClCompile Include="src\learn\05\ssao.cpp" />
+    <ClCompile Include="src\learn\06\ibl_irradiance.cpp" />
+    <ClCompile Include="src\learn\06\ibl_irradiance_conversion.cpp" />
+    <ClCompile Include="src\learn\06\ibl_specular.cpp" />
+    <ClCompile Include="src\learn\06\ibl_specular_textured.cpp" />
+    <ClCompile Include="src\learn\06\lighting.cpp" />
+    <ClCompile Include="src\learn\06\lighting_textured.cpp" />
+    <ClCompile Include="src\PBR.cpp" />
+    <ClCompile Include="src\Test_HDR.cpp" />
+    <ClCompile Include="src\Test_LoadModel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\mesh.h" />
+    <ClInclude Include="includes\model.h" />
+    <ClInclude Include="includes\shader.h" />
+    <ClInclude Include="includes\shader_m.h" />
+    <ClInclude Include="includes\shader_s.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\learn\1.getting_started\3.3.shader.fs" />
+    <None Include="shaders\learn\1.getting_started\3.3.shader.vs" />
+    <None Include="shaders\learn\1.getting_started\4.1.texture.fs" />
+    <None Include="shaders\learn\1.getting_started\4.1.texture.vs" />
+    <None Include="shaders\learn\1.getting_started\4.2.texture.fs" />
+    <None Include="shaders\learn\1.getting_started\4.2.texture.vs" />
+    <None Include="shaders\learn\1.getting_started\4.3.texture.fs" />
+    <None Include="shaders\learn\1.getting_started\4.3.texture.vs" />
+    <None Include="shaders\learn\1.getting_started\4.4.texture.fs" />
+    <None Include="shaders\learn\1.getting_started\4.4.texture.vs" />
+    <None Include="shaders\learn\1.getting_started\4.5.texture.fs" />
+    <None Include="shaders\learn\1.getting_started\4.5.texture.vs" />
+    <None Include="shaders\learn\1.getting_started\5.1.transform.fs" />
+    <None Include="shaders\learn\1.getting_started\5.1.transform.vs" />
+    <None Include="shaders\learn\1.getting_started\5.2.transform.fs" />
+    <None Include="shaders\learn\1.getting_started\5.2.transform.vs" />
+    <None Include="shaders\learn\1.getting_started\6.1.coordinate_systems.fs" />
+    <None Include="shaders\learn\1.getting_started\6.1.coordinate_systems.vs" />
+    <None Include="shaders\learn\1.getting_started\6.2.coordinate_systems.fs" />
+    <None Include="shaders\learn\1.getting_started\6.2.coordinate_systems.vs" />
+    <None Include="shaders\learn\1.getting_started\6.3.coordinate_systems.fs" />
+    <None Include="shaders\learn\1.getting_started\6.3.coordinate_systems.vs" />
+    <None Include="shaders\learn\1.getting_started\7.1.camera.fs" />
+    <None Include="shaders\learn\1.getting_started\7.1.camera.vs" />
+    <None Include="shaders\learn\1.getting_started\7.2.camera.fs" />
+    <None Include="shaders\learn\1.getting_started\7.2.camera.vs" />
+    <None Include="shaders\learn\1.getting_started\7.3.camera.fs" />
+    <None Include="shaders\learn\1.getting_started\7.4.camera.fs" />
+    <None Include="shaders\learn\1.getting_started\7.4.camera.vs" />
+    <None Include="shaders\learn\2.lighting\1.colors.fs" />
+    <None Include="shaders\learn\2.lighting\1.colors.vs" />
+    <None Include="shaders\learn\2.lighting\1.lamp.fs" />
+    <None Include="shaders\learn\2.lighting\1.lamp.vs" />
+    <None Include="shaders\learn\2.lighting\2.1.basic_lighting.fs" />
+    <None Include="shaders\learn\2.lighting\2.1.basic_lighting.vs" />
+    <None Include="shaders\learn\2.lighting\2.1.lamp.fs" />
+    <None Include="shaders\learn\2.lighting\2.1.lamp.vs" />
+    <None Include="shaders\learn\2.lighting\2.2.basic_lighting.fs" />
+    <None Include="shaders\learn\2.lighting\2.2.basic_lighting.vs" />
+    <None Include="shaders\learn\2.lighting\2.2.lamp.fs" />
+    <None Include="shaders\learn\2.lighting\2.2.lamp.vs" />
+    <None Include="shaders\learn\2.lighting\3.1.lamp.fs" />
+    <None Include="shaders\learn\2.lighting\3.1.lamp.vs" />
+    <None Include="shaders\learn\2.lighting\3.1.materials.fs" />
+    <None Include="shaders\learn\2.lighting\3.1.materials.vs" />
+    <None Include="shaders\learn\2.lighting\3.2.lamp.fs" />
+    <None Include="shaders\learn\2.lighting\3.2.lamp.vs" />
+    <None Include="shaders\learn\2.lighting\3.2.materials.fs" />
+    <None Include="shaders\learn\2.lighting\3.2.materials.vs" />
+    <None Include="shaders\learn\2.lighting\4.1.lamp.fs" />
+    <None Include="shaders\learn\2.lighting\4.1.lamp.vs" />
+    <None Include="shaders\learn\2.lighting\4.1.lighting_maps.fs" />
+    <None Include="shaders\learn\2.lighting\4.1.lighting_maps.vs" />
+    <None Include="shaders\learn\2.lighting\4.2.lamp.fs" />
+    <None Include="shaders\learn\2.lighting\4.2.lamp.vs" />
+    <None Include="shaders\learn\2.lighting\4.2.lighting_maps.fs" />
+    <None Include="shaders\learn\2.lighting\4.2.lighting_maps.vs" />
+    <None Include="shaders\learn\2.lighting\4.3.lamp.fs" />
+    <None Include="shaders\learn\2.lighting\4.3.lamp.vs" />
+    <None Include="shaders\learn\2.lighting\4.3.lighting_maps.fs" />
+    <None Include="shaders\learn\2.lighting\4.3.lighting_maps.vs" />
+    <None Include="shaders\learn\2.lighting\5.1.lamp.fs" />
+    <None Include="shaders\learn\2.lighting\5.1.lamp.vs" />
+    <None Include="shaders\learn\2.lighting\5.1.light_casters.fs" />
+    <None Include="shaders\learn\2.lighting\5.1.light_casters.vs" />
+    <None Include="shaders\learn\2.lighting\5.2.lamp.fs" />
+    <None Include="shaders\learn\2.lighting\5.2.lamp.vs" />
+    <None Include="shaders\learn\2.lighting\5.2.light_casters.fs" />
+    <None Include="shaders\learn\2.lighting\5.2.light_casters.vs" />
+    <None Include="shaders\learn\2.lighting\5.3.lamp.fs" />
+    <None Include="shaders\learn\2.lighting\5.3.lamp.vs" />
+    <None Include="shaders\learn\2.lighting\5.3.light_casters.fs" />
+    <None Include="shaders\learn\2.lighting\5.3.light_casters.vs" />
+    <None Include="shaders\learn\2.lighting\5.4.lamp.fs" />
+    <None Include="shaders\learn\2.lighting\5.4.lamp.vs" />
+    <None Include="shaders\learn\2.lighting\5.4.light_casters.fs" />
+    <None Include="shaders\learn\2.lighting\5.4.light_casters.vs" />
+    <None Include="shaders\learn\2.lighting\6.lamp.fs" />
+    <None Include="shaders\learn\2.lighting\6.lamp.vs" />
+    <None Include="shaders\learn\2.lighting\6.multiple_lights.fs" />
+    <None Include="shaders\learn\2.lighting\6.multiple_lights.vs" />
+    <None Include="shaders\learn\3.model_loading\1.model_loading.fs" />
+    <None Include="shaders\learn\3.model_loading\1.model_loading.vs" />
+    <None Include="shaders\learn\4.advanced_opengl\10.3.asteroids.fs" />
+    <None Include="shaders\learn\4.advanced_opengl\10.3.asteroids.vs" />
+    <None Include="shaders\learn\4.advanced_opengl\10.3.planet.fs" />
+    <None Include="shaders\learn\4.advanced_opengl\10.3.planet.vs" />
+    <None Include="shaders\learn\5.advanced_lighting\9.ssao.fs" />
+    <None Include="shaders\learn\5.advanced_lighting\9.ssao.vs" />
+    <None Include="shaders\learn\5.advanced_lighting\9.ssao_blur.fs" />
+    <None Include="shaders\learn\5.advanced_lighting\9.ssao_geometry.fs" />
+    <None Include="shaders\learn\5.advanced_lighting\9.ssao_geometry.vs" />
+    <None Include="shaders\learn\5.advanced_lighting\9.ssao_lighting.fs" />
+    <None Include="shaders\learn\6.pbr\1.1.pbr.fs" />
+    <None Include="shaders\learn\6.pbr\1.1.pbr.vs" />
+    <None Include="shaders\learn\6.pbr\1.2.pbr.fs" />
+    <None Include="shaders\learn\6.pbr\1.2.pbr.vs" />
+    <None Include="shaders\learn\6.pbr\2.1.1.background.fs" />
+    <None Include="shaders\learn\6.pbr\2.1.1.background.vs" />
+    <None Include="shaders\learn\6.pbr\2.1.1.cubemap.vs" />
+    <None Include="shaders\learn\6.pbr\2.1.1.equirectangular_to_cubemap.fs" />
+    <None Include="shaders\learn\6.pbr\2.1.1.pbr.fs" />
+    <None Include="shaders\learn\6.pbr\2.1.1.pbr.vs" />
+    <None Include="shaders\learn\6.pbr\2.1.2.background.fs" />
+    <None Include="shaders\learn\6.pbr\2.1.2.background.vs" />
+    <None Include="shaders\learn\6.pbr\2.1.2.cubemap.vs" />
+    <None Include="shaders\learn\6.pbr\2.1.2.equirectangular_to_cubemap.fs" />
+    <None Include="shaders\learn\6.pbr\2.1.2.irradiance_convolution.fs" />
+    <None Include="shaders\learn\6.pbr\2.1.2.pbr.fs" />
+    <None Include="shaders\learn\6.pbr\2.1.2.pbr.vs" />
+    <None Include="shaders\learn\6.pbr\2.2.1.background.fs" />
+    <None Include="shaders\learn\6.pbr\2.2.1.background.vs" />
+    <None Include="shaders\learn\6.pbr\2.2.1.brdf.fs" />
+    <None Include="shaders\learn\6.pbr\2.2.1.brdf.vs" />
+    <None Include="shaders\learn\6.pbr\2.2.1.cubemap.vs" />
+    <None Include="shaders\learn\6.pbr\2.2.1.equirectangular_to_cubemap.fs" />
+    <None Include="shaders\learn\6.pbr\2.2.1.irradiance_convolution.fs" />
+    <None Include="shaders\learn\6.pbr\2.2.1.pbr.fs" />
+    <None Include="shaders\learn\6.pbr\2.2.1.pbr.vs" />
+    <None Include="shaders\learn\6.pbr\2.2.1.prefilter.fs" />
+    <None Include="shaders\learn\6.pbr\2.2.2.background.fs" />
+    <None Include="shaders\learn\6.pbr\2.2.2.background.vs" />
+    <None Include="shaders\learn\6.pbr\2.2.2.brdf.fs" />
+    <None Include="shaders\learn\6.pbr\2.2.2.brdf.vs" />
+    <None Include="shaders\learn\6.pbr\2.2.2.cubemap.vs" />
+    <None Include="shaders\learn\6.pbr\2.2.2.equirectangular_to_cubemap.fs" />
+    <None Include="shaders\learn\6.pbr\2.2.2.irradiance_convolution.fs" />
+    <None Include="shaders\learn\6.pbr\2.2.2.pbr.fs" />
+    <None Include="shaders\learn\6.pbr\2.2.2.pbr.vs" />
+    <None Include="shaders\learn\6.pbr\2.2.2.prefilter.fs" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

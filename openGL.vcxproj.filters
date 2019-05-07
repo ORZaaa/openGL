@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\learn">
+      <UniqueIdentifier>{4fbc46ab-7b7f-498c-a2a9-f6603612c34d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\learn">
+      <UniqueIdentifier>{c572d61a-532b-4504-89d1-8920155b410d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\learn">
+      <UniqueIdentifier>{de40530b-9f85-4f83-8e40-ecf30880c651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{dfab3954-a0da-409f-8a96-b8c80f67640b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\learn">
+      <UniqueIdentifier>{d091e02c-a831-4d83-a403-7362d3351679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\learn\textures">
+      <UniqueIdentifier>{9baef94c-55b6-4132-bce9-f6a5c39b23dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\learn\1.getting_started">
+      <UniqueIdentifier>{b1792f7f-9ead-4627-8b12-e436f7c47541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\learn\01">
+      <UniqueIdentifier>{dae6d71e-ff2b-4da5-a0ab-9cb291f2613e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\learn\2.lighting">
+      <UniqueIdentifier>{7eca157e-3578-4454-ab02-855b162ce50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\learn\02">
+      <UniqueIdentifier>{eac878ef-71fa-4046-ba0d-2a52eaabbc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\learn\3.model_loading">
+      <UniqueIdentifier>{1e04d0bc-c891-47b1-8fce-5a4558789c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\learn\03">
+      <UniqueIdentifier>{605443e4-4d39-4285-a130-4f08bc740552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\learn\6.shader">
+      <UniqueIdentifier>{351b0235-e4fd-41b1-baa1-d28170c0b56e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\camera_circle.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\camera_class.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\camera_keyboard_dt.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\camera_mouse_zoom.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\coordinate_systems.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\coordinate_systems_depth.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\coordinate_systems_multiple.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\hello_triangle_exercise1.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\hello_triangle_exercise2.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\hello_triangle_exercise3.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\HelloTriangle.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\HelloWorld.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\HellowTriangleIndexed.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\shaders_class.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\shaders_interpolation.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\shaders_uniform.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\textures.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\textures_combined.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\textures_exercise2.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\textures_exercise3.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\textures_exercise4.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\transformations.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\01\transformations_exercise2.cpp">
+      <Filter>源文件\learn\01</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\02\basic_lighting_diffuse.cpp">
+      <Filter>源文件\learn\02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\02\basic_lighting_specular.cpp">
+      <Filter>源文件\learn\02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\02\colors.cpp">
+      <Filter>源文件\learn\02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\02\light_casters_directional.cpp">
+      <Filter>源文件\learn\02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\02\light_casters_point.cpp">
+      <Filter>源文件\learn\02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\02\light_casters_spot.cpp">
+      <Filter>源文件\learn\02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\02\light_casters_spot_soft.cpp">
+      <Filter>源文件\learn\02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\02\lighting_maps_diffuse.cpp">
+      <Filter>源文件\learn\02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\02\lighting_maps_exercise4.cpp">
+      <Filter>源文件\learn\02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\02\lighting_maps_specular.cpp">
+      <Filter>源文件\learn\02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\02\materials.cpp">
+      <Filter>源文件\learn\02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\02\materials_exercise1.cpp">
+      <Filter>源文件\learn\02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\02\multiple_lights.cpp">
+      <Filter>源文件\learn\02</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\03\model_loading.cpp">
+      <Filter>源文件\learn\03</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\06\lighting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\06\lighting_textured.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\06\ibl_irradiance_conversion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\06\ibl_irradiance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\06\ibl_specular.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\06\ibl_specular_textured.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Test_HDR.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Test_LoadModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PBR.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\05\ssao.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\learn\04\asteroids_instanced.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\shader_s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\shader_m.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\learn\1.getting_started\3.3.shader.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\3.3.shader.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\4.1.texture.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\4.1.texture.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\4.2.texture.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\4.2.texture.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\4.3.texture.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\4.3.texture.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\4.4.texture.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\4.4.texture.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\4.5.texture.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\4.5.texture.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\5.1.transform.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\5.1.transform.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\5.2.transform.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\5.2.transform.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\6.1.coordinate_systems.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\6.1.coordinate_systems.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\6.2.coordinate_systems.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\6.2.coordinate_systems.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\6.3.coordinate_systems.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\6.3.coordinate_systems.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\7.1.camera.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\7.1.camera.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\7.2.camera.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\7.2.camera.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\7.3.camera.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\7.4.camera.fs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\1.getting_started\7.4.camera.vs">
+      <Filter>shaders\learn\1.getting_started</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\1.colors.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\1.colors.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\1.lamp.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\1.lamp.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\2.1.basic_lighting.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\2.1.basic_lighting.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\2.1.lamp.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\2.1.lamp.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\2.2.basic_lighting.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\2.2.basic_lighting.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\2.2.lamp.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\2.2.lamp.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\3.1.lamp.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\3.1.lamp.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\3.1.materials.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\3.1.materials.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\3.2.lamp.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\3.2.lamp.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\3.2.materials.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\3.2.materials.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\4.1.lamp.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\4.1.lamp.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\4.1.lighting_maps.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\4.1.lighting_maps.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\4.2.lamp.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\4.2.lamp.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\4.2.lighting_maps.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\4.2.lighting_maps.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\4.3.lamp.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\4.3.lamp.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\4.3.lighting_maps.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\4.3.lighting_maps.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.1.lamp.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.1.lamp.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.1.light_casters.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.1.light_casters.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.2.lamp.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.2.lamp.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.2.light_casters.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.2.light_casters.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.3.lamp.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.3.lamp.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.3.light_casters.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.3.light_casters.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.4.lamp.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.4.lamp.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.4.light_casters.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\5.4.light_casters.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\6.lamp.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\6.lamp.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\6.multiple_lights.fs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\2.lighting\6.multiple_lights.vs">
+      <Filter>shaders\learn\2.lighting</Filter>
+    </None>
+    <None Include="shaders\learn\3.model_loading\1.model_loading.fs">
+      <Filter>shaders\learn\3.model_loading</Filter>
+    </None>
+    <None Include="shaders\learn\3.model_loading\1.model_loading.vs">
+      <Filter>shaders\learn\3.model_loading</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\1.1.pbr.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\1.1.pbr.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\1.2.pbr.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\1.2.pbr.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.1.1.background.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.1.1.background.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.1.1.cubemap.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.1.1.equirectangular_to_cubemap.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.1.1.pbr.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.1.1.pbr.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.1.2.background.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.1.2.background.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.1.2.cubemap.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.1.2.equirectangular_to_cubemap.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.1.2.irradiance_convolution.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.1.2.pbr.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.1.2.pbr.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.1.background.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.1.background.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.1.brdf.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.1.brdf.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.1.cubemap.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.1.equirectangular_to_cubemap.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.1.irradiance_convolution.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.1.pbr.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.1.pbr.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.1.prefilter.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.2.background.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.2.background.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.2.brdf.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.2.brdf.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.2.cubemap.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.2.equirectangular_to_cubemap.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.2.irradiance_convolution.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.2.pbr.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.2.pbr.vs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\6.pbr\2.2.2.prefilter.fs">
+      <Filter>shaders\learn\6.shader</Filter>
+    </None>
+    <None Include="shaders\learn\5.advanced_lighting\9.ssao.fs" />
+    <None Include="shaders\learn\5.advanced_lighting\9.ssao.vs" />
+    <None Include="shaders\learn\5.advanced_lighting\9.ssao_blur.fs" />
+    <None Include="shaders\learn\5.advanced_lighting\9.ssao_geometry.fs" />
+    <None Include="shaders\learn\5.advanced_lighting\9.ssao_geometry.vs" />
+    <None Include="shaders\learn\5.advanced_lighting\9.ssao_lighting.fs" />
+    <None Include="shaders\learn\4.advanced_opengl\10.3.asteroids.fs" />
+    <None Include="shaders\learn\4.advanced_opengl\10.3.asteroids.vs" />
+    <None Include="shaders\learn\4.advanced_opengl\10.3.planet.fs" />
+    <None Include="shaders\learn\4.advanced_opengl\10.3.planet.vs" />
+  </ItemGroup>
+</Project>
